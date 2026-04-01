@@ -1,0 +1,77 @@
+.profile {
+    width: 200px; 
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.title_name {
+    font-size: 16px; 
+    color: gray; 
+    letter-spacing: 3px; 
+    text-align: center;
+}
+
+.title_info {
+    text-align: center;
+}
+
+.title_info2 {
+    color: aqua;
+}
+
+.introduce_content {
+    margin-bottom: 0; 
+    line-height: 1.6; 
+    font-size: 18px;
+}
+
+.box {
+    width: 200px;
+    background-color: cadetblue;
+    margin: 30px;
+    padding: 40px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    box-shadow: 5px 5px 5px 5px green ;
+}
+
+.container {
+    width: 800px;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.left-menu {
+    width: 20%;
+    height: 400px;
+    background-color: cornflowerblue;
+    /* float: left; 붕띄워서 왼쪽 정렬 */
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+
+.right {
+    width: 80%;
+    height: 400px;
+    background-color: coral;
+    /* float: left; */
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    /* clear: both; float로 발생하는 이상현상 해결*/
+}

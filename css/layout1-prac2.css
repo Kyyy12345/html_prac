@@ -1,0 +1,48 @@
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    background-color: beige;
+}
+
+.blog-left {
+    width: 80%;
+    height: 200px;
+    float: left;
+}
+
+.blog-right {
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+
+
+.blog-profile {
+    
+}
+
+.profile-img {
+    float: left;
+}
+
+.profile-name {
+    float: left;
+    
+}
+
+.profile-time {
+
+}
+
+
+.blog-content {
+    clear: both;
+    
+}
+
+.blog-content > p {
+    position: relative;
+    top: -10px;
+}
