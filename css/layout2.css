@@ -1,9 +1,15 @@
+@font-face {
+    font-family: '나눔스퀘어';
+    src: url(../font/NanumSquareAcR.woff2);
+}
+
 div {
     box-sizing: border-box;
 }
 
 body {
     margin: 0px;
+    font-family: '나눔스퀘어';
 }
 
 .main-background {
