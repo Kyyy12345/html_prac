@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.container div {
+    width: 25%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .container div {
+        width: 50%;
+    }
+    .container {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container div {
+        width: 100%;
+    }
+    
+}
