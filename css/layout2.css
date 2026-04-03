@@ -70,3 +70,46 @@ body {
 input[type=password] {
     background-color: blue;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    /* justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    /* height: 500px;
+    align-items: center; */
+    background-color: red;
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+}
+
+.flex-item:nth-child(1) {
+    font-size: 50px;
+    
+}
+
+.flex-item:nth-child(3) {
+    font-size: 30px;
+}
+
+.flex-item:nth-child(4) {
+    font-size: 30px;
+}
+
+.nav-container {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding: 5px;
+}
+
+.nav-item {
+    
+    margin-right: 10px;
+}
